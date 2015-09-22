@@ -20,7 +20,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Add the following to your environment:
+Add the following variables to your environment:
 
 ```
 export UC_API_KEY=
@@ -35,8 +35,8 @@ Ensure you're using the virtualenv you created:
 source venv/bin/activate
 ```
 
-Run any python demo you'd like, example:
+Run the python demo you'd like. For example:
 
 ```
-python archive/latest-scene.py
+python archive/total-scenes.py
 ```
