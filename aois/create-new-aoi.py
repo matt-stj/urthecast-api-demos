@@ -11,16 +11,12 @@ r = requests.post(url,
     params = { 'api_key': api_key, 'api_secret': api_secret },
     # Check out http://geojson.io for help with creating GeoJSON objects
     data = json.dumps({
-        "name": "San Francisco",
+        "name": "JungfrauSquare",
         "geometry": {
             "type": "Polygon",
             "coordinates": [
                 [
-                    [-122.51747131347655, 37.71261539271678],
-                    [-122.51747131347655, 37.82036164330873],
-                    [-122.35507965087889, 37.82036164330873],
-                    [-122.35507965087889, 37.71261539271678],
-                    [-122.51747131347655, 37.71261539271678]
+                    [46.647655, 7.660476], [46.676139, 8.233319], [46.341512, 8.271809], [46.329850, 7.585620],[46.647655, 7.660476]
                 ]
             ]
         }
